@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "version": "0.1.0",
+  "name": "mochimochi",
+  "description": "translate to mochimochi",
+  "background": {
+    "service_worker": "index.js"
+  },
+  "action": {
+    "default_title": "to mochimochi"
+  },
+  "permissions": ["activeTab", "scripting"]
+}
